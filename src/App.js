@@ -1,24 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import Nav from './header/header';
+import Netflix from './netflixfront/front';
+import Netflix1 from './netflixfront1/front';
+import Footer from './footer/footer';
+import Korean from './korean/korean-tv';
+import Popular from './popular/popular-tv';
+import Children from './child-tv/child';
+import Excited from './new/new-tv';
+import Bottom from './bottom/bottom-1';
+import Series from './series-tv/series';
+
+
+
+    
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    
+    <Nav/>
+    <Netflix/>
+    <Netflix1/>
+    <Popular/>
+    <Excited/>
+    <Series/>
+    <Korean/>
+    <Children/>
+    <Bottom/>
+    <Footer/>
+  </>  
   );
 }
 

@@ -1,0 +1,39 @@
+.pop_nef{
+    flex: auto;
+    color: white;
+    height: 250px;
+    width: 400px;
+    margin: 10px;
+    font-family: 'Arial';
+}
+
+.pop_nf_h3{
+    color: white;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.pop_name{
+     display: flex; 
+     padding: 10px; 
+
+    font-size: 10px;
+     flex-direction: row; 
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.pop_link{
+    margin-top:  40px;
+}
+
+.pop_main{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn1{
+    background-color: white;
+    color: black;
+
+}
