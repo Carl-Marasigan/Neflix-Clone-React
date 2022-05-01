@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+LIVE DEMO https://netflix-clone-react-delta.vercel.app/
 
 ![image](https://user-images.githubusercontent.com/90967308/166133475-6d99e455-261a-4869-8f02-bdd185865f1e.png)
 
